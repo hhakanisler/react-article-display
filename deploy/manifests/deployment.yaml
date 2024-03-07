@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react-application
-        image: docker.io/anaisurlichs/react-article-display:3.0.0
+        image: docker.io/anaisurlichs/react-article-display:2.0.0
         ports:
           - containerPort: 80
         imagePullPolicy: Always
